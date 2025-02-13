@@ -20,23 +20,19 @@ int main()
 		scanf("%d",&choice);
 		switch(choice)
 		{
-			case 1:
-					printf("\nEnter Element");//10 20 30
-					scanf("%d",&x);
-					insert(x);
-					break;
-			case 2:
-					delete();
-					//	printf("\nDeleted Element:%d",k);
-						break;
+			case 1:	printf("\nEnter Element");//10 20 30
+				scanf("%d",&x);
+				insert(x);
+				break;
+			case 2:	delete();
+				//printf("\nDeleted Element:%d",k);
+				break;
 			
-			case 3:
-					display();
-					break;
+			case 3:display();
+				break;
 			case 4:	k=peek();
 				printf("\nTop Element: %d",k);
 				break;
-			
 			case 5: exit(1);
 		}
 	}
