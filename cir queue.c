@@ -36,7 +36,7 @@ int main()
 					break;
 			
 			case 5: k=sizeOfCQ();
-					printf("\nTop Element of the circular queue=%d",k);
+					printf("\nnumber of element in circular queue=%d",k);
 					break;
 			
 			case 6: exit(1);
